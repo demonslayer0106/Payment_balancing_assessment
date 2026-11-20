@@ -1,0 +1,130 @@
+{
+  "seed": 20261031,
+  "plant_defects": true,
+  "period": {
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "lookback_start": "2026-09-25"
+  },
+  "planted": {
+    "duplicate": {
+      "txn_ref": "TXN-GVP4DZ8G",
+      "primary_settle": "2026-10-07",
+      "duplicate_settle": "2026-10-08",
+      "amount": "603.18",
+      "duplicate_line_ref": "LN-20261008-0021",
+      "primary_line_ref": "LN-20261007-0043"
+    },
+    "orphan_refund": {
+      "refund_txn_id": "TXN-K4E4W6W5",
+      "original_as_written": "TXN-SSKW2A3A",
+      "original_before_corruption": "TXN-SSKW2ACA",
+      "amount": "502.16"
+    },
+    "boundary_txn": {
+      "txn_id": "TXN-YGCDV2ER",
+      "created_at_utc": "2026-10-31T19:00:00Z",
+      "ist_date": "2026-11-01",
+      "settle_date": "2026-11-02"
+    }
+  },
+  "decoys": {
+    "refunds_of_september_sales": [
+      "TXN-44TJZEKP",
+      "TXN-MTTBMR77",
+      "TXN-BZPNKSS3",
+      "TXN-TDAYA9SC",
+      "TXN-CPDJPQFH",
+      "TXN-AZKCFTHH",
+      "TXN-CMP4JFU5",
+      "TXN-Y2F3CVN6",
+      "TXN-XYZAEXTH",
+      "TXN-DREUB7DT"
+    ],
+    "refunds_of_late_october_sales": [
+      "TXN-TWVDDRHG",
+      "TXN-8TDZZZZP"
+    ],
+    "same_amount_same_day_payments": [
+      [
+        "TXN-E8PWUDYK",
+        "TXN-TUJF5CC2",
+        "TXN-QFF895SH",
+        "TXN-8QSSHQGX",
+        "TXN-X3SCZUAA",
+        "TXN-QRJVK73E",
+        "TXN-FGY4XATF"
+      ],
+      [
+        "TXN-XDUMSAV8",
+        "TXN-RS552WQ3",
+        "TXN-CHRXXUNY",
+        "TXN-FTWTF89B",
+        "TXN-V23YF5GM",
+        "TXN-DHV2CNUU",
+        "TXN-GPAB7JE4"
+      ],
+      [
+        "TXN-XM4GZPK3",
+        "TXN-Y4JHTVPE",
+        "TXN-P5V4PUTJ",
+        "TXN-3CYSXN2F",
+        "TXN-2BYARHMQ",
+        "TXN-CR6UBUFP"
+      ],
+      [
+        "TXN-C437828F",
+        "TXN-QHKUPFNN",
+        "TXN-ZKZV86HF",
+        "TXN-3JATTVJU",
+        "TXN-GQM74PZ7",
+        "TXN-SF87B3PP"
+      ],
+      [
+        "TXN-UMRNPNXP",
+        "TXN-NQ89UVYM",
+        "TXN-YA6JCPSM",
+        "TXN-RQW365T9",
+        "TXN-E7HGWB8N"
+      ],
+      [
+        "TXN-DV3NJDZW",
+        "TXN-8EQJ6AEN",
+        "TXN-KZ832PSP",
+        "TXN-WBCCJYSX",
+        "TXN-TJHY3Z2T"
+      ],
+      [
+        "TXN-2UZ7XSMR",
+        "TXN-WDD23D6E",
+        "TXN-UZZZ7PMJ",
+        "TXN-T54U6FCF",
+        "TXN-XPA4XZAK"
+      ],
+      [
+        "TXN-A464EVJB",
+        "TXN-XQ7WE9NZ",
+        "TXN-3TT9JHEG",
+        "TXN-VMM6CRT7",
+        "TXN-34TP623E"
+      ]
+    ]
+  },
+  "expected": {
+    "platform_oct_total": "1213915.862",
+    "in_transit_amount": "72436.404",
+    "in_transit_count": 100,
+    "carry_in_amount": "85853.69",
+    "carry_in_count": 77,
+    "rounding_net": "0.222",
+    "duplicates_amount": "603.18",
+    "bank_oct_total": "1227936.55"
+  },
+  "row_counts": {
+    "platform": 1466,
+    "bank_lines": 1253,
+    "batches": 24,
+    "refunds": 65,
+    "failed": 54
+  }
+}
